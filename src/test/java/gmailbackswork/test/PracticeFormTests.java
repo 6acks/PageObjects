@@ -25,6 +25,8 @@ public class PracticeFormTests {
         open("/automation-practice-form");
         $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
 
+//        $("[alt='adplus-dvertising']").click(); // Minimize ad
+
         $("[id=firstName]").setValue("Vlad");
         $("[id=lastName]").setValue("Zhur");
         $("[id=userEmail]").setValue("mail@mail.ru");
@@ -73,7 +75,18 @@ public class PracticeFormTests {
 
         $("#submit").click();
 
+        $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
 
-
+        $(".table-responsive").$(byText("Student Name")).parent().shouldHave(text("Vlad Zhur"));
+//        $(".table-responsive").$(byText("Student Name")).sibling(0).shouldHave(text("Vlad Zhur"));  //Example
+        $(".table-responsive").$(byText("Student Email")).parent().shouldHave(text("mail@mail.ru"));
+        $(".table-responsive").$(byText("Gender")).parent().shouldHave(text("Other"));
+        $(".table-responsive").$(byText("Mobile")).parent().shouldHave(text("8005553535"));
+        $(".table-responsive").$(byText("Date of Birth")).parent().shouldHave(text("30 July,2008"));
+        $(".table-responsive").$(byText("Subjects")).parent().shouldHave(text("Maths"));
+        $(".table-responsive").$(byText("Hobbies")).parent().shouldHave(text("Sports"));
+        $(".table-responsive").$(byText("Picture")).parent().shouldHave(text("hello.png"));
+        $(".table-responsive").$(byText("Address")).parent().shouldHave(text("Tomsk"));
+        $(".table-responsive").$(byText("State and City")).parent().shouldHave(text("NCR Noida"));
     }
 }
