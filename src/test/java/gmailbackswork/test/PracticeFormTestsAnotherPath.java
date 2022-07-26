@@ -1,20 +1,16 @@
 package gmailbackswork.test;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.selector.ByText;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-
-import java.io.File;
-
-import static com.codeborne.selenide.Condition.*;
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 
-public class PracticeFormTests {
+public class PracticeFormTestsAnotherPath {
     @BeforeAll
     static void setUp(){
         Configuration.baseUrl="https://demoqa.com";
