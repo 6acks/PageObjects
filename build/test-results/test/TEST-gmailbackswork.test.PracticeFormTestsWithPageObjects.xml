@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gmailbackswork.test.PracticeFormTestsWithPageObjects" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-26T12:50:02" hostname="DESKTOP-MR48V4E" time="6.877">
+  <properties/>
+  <testcase name="fillpracticeFormTests()" classname="gmailbackswork.test.PracticeFormTestsWithPageObjects" time="6.877"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\EBLAN\IdeaProjects\demoqaTestTextBox\build\downloads\1658839802828_10260_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.134 (resolved driver for Chrome 103)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\EBLAN\.cache\selenium\chromedriver\win32\103.0.5060.134\chromedriver.exe
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 54688
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июл. 26, 2022 7:50:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+июл. 26, 2022 7:50:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: a no-op implementation
+июл. 26, 2022 7:50:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 103.
+июл. 26, 2022 7:50:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed connectTimeout from PT10S to PT10S
+[Test worker] INFO com.codeborne.selenide.webdriver.HttpClientTimeouts - Changed readTimeout from PT1M30S to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1920x1080
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=103.0.5060.134 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.3.5
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.1.2 build revision: 9a5a329c5a
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (38853bdd5a1da10a8aeca90d2ea92afd)
+]]></system-err>
+</testsuite>
